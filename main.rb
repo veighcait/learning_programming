@@ -87,11 +87,11 @@ class Game
  	  conversation.greet
 	  
     while conversation.ended == false
-  	 conversation.ask_is_this_nice
-     conversation.ask_about_day
-  	 conversation.end_conversation
-  	 conversation.end_conversation?
-	  end
+      conversation.ask_is_this_nice
+      conversation.ask_about_day
+      conversation.end_conversation
+      conversation.end_conversation?
+    end
   end
 end
 
